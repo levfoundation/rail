@@ -96,10 +96,3 @@ pubmed_metadata_full.json:
 
 
 
-
-Troubleshooting
-
-GPU Connection Issues: If the GPU connection fails, manually select: Runtime > Change runtime type > Hardware accelerator > GPU
-API Rate Limiting: If you get connection errors, increase RATE_LIMIT_DELAY to 1.0 or higher
-CSV Format Issues: Ensure your CSV file has a column named "pmid" or the script will use the first column
-Memory Errors: For very large datasets, process in chunks by setting the LIMIT parameter
